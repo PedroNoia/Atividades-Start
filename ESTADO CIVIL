@@ -1,0 +1,33 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		inteiro estadocivil
+		
+		escreva("Informe qual a primeira letra do seu estado civil: \n")
+		escreva("1- S ")
+		escreva("2- C ")
+		escreva("3- V ")
+		escreva("4- D\n")
+		leia(estadocivil)
+
+		escolha (estadocivil){
+			caso 1:
+			escreva("Você é Solteiro(a) !")			
+			pare
+			caso 2:
+			escreva("Você é Casado(a) !")			
+			pare
+			caso 3:
+			escreva("Você é Viuvo(a) !")			
+			pare
+			caso 4:
+			escreva("Você é Divorciado(a) !")			
+			pare
+			caso contrario: escreva("Opção Inválida")
+			pare
+		}
+	}
+}
